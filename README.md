@@ -13,14 +13,14 @@ and optimisation/benchmarking work.
 
 | Language | Lines | Share |
 | -------- | ----- | ----- |
-| Text | 208,466 | 45.9% |
-| C | 84,705 | 18.6% |
-| TypeScript | 39,594 | 8.7% |
-| Python | 20,816 | 4.6% |
-| JSON | 13,866 | 3.1% |
-| Markdown | 13,469 | 3.0% |
-| SVG | 9,767 | 2.1% |
-| XML | 9,450 | 2.1% |
+| C | 84,705 | 44.0% |
+| TypeScript | 39,594 | 20.6% |
+| Python | 20,816 | 10.8% |
+| JavaScript | 8,490 | 4.4% |
+| C/C++ Header | 7,418 | 3.9% |
+| Rust | 6,122 | 3.2% |
+| Bourne Shell | 3,598 | 1.9% |
+| C++ | 2,940 | 1.5% |
 
 ## Recently updated
 
@@ -61,6 +61,7 @@ and optimisation/benchmarking work.
 
 ## Recent activity
 
+- 2026-04-20T22:04:10.522Z — pushed to: XxI0NICxX
 - 2026-04-20T22:02:57.048Z — pushed to: XxI0NICxX
 - 2026-04-20T21:53:53.802Z — pushed to: XxI0NICxX
 - 2026-04-20T21:20:05.585Z — pushed new: XxI0NICxX
@@ -80,7 +81,6 @@ and optimisation/benchmarking work.
 - 2026-04-18T03:42:10.110Z — deleted: c-utils
 - 2026-04-18T03:42:09.507Z — pushed to: c-utils
 - 2026-04-18T03:42:09.501Z — accepted: Add HTML and priority support to push notifications
-- 2026-04-18T03:41:43.782Z — opened: Add HTML and priority support to push notifications
 
 ---
 *Generated 2026-04-20 · 32 public / 98 total repos*
