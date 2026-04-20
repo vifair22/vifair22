@@ -5,9 +5,28 @@
 
 ## About
 
-Systems-level developer based in Oklahoma. Most of my work is in C, with Rust and Python
-sprinkled in. Interests include embedded hardware, homelab infrastructure,
-and optimisation/benchmarking work.
+Solo developer, bottom-up. Day-to-day is **C** — with a shared application
+framework ([`c-utils`](https://git.airies.net/vifair22/c-utils): logging,
+config, db, push notifications, lifecycle management) that everything else
+builds on. **Rust** for web services and CLI tooling; **TypeScript** and
+**Python** where they fit.
+
+What I actually ship tends to cluster:
+
+- **Homelab infrastructure** — an encrypted DNS proxy, a dynamic homepage,
+  a Rust file server, SMTP troubleshooting, an automated MTU-finder. All
+  dockerized, running on Unraid.
+- **Benchmarks & low-level curiosity** — 1 Billion Row Challenge in C, C++
+  (fastest thing I've ever written), and Zig; a request microbenchmarker;
+  Ben Eater's 6502 from scratch.
+- **Retro + games** — original-Xbox Cerbios dev-mode reboot; 7 Days to Die
+  balance mods + Discord bot; Oxygen Not Included save parser; a World of
+  Tanks modpack auto-updater.
+- **Small utilities** — chess engine in C, RPN calculator, Breakout clone,
+  YouTube TV wrapper with controller support.
+
+This GitHub is a read-only mirror of my self-hosted GitLab at
+[git.airies.net](https://git.airies.net). GitLab is the source of truth.
 
 ## Top languages
 
@@ -34,11 +53,11 @@ and optimisation/benchmarking work.
 
 ## Recent activity
 
+- 2026-04-20T22:44:16.891Z — pushed to: XxI0NICxX
 - 2026-04-20T22:34:41.762Z — pushed to: XxI0NICxX
 - 2026-04-20T22:25:39.157Z — pushed to: XxI0NICxX
 - 2026-04-20T22:05:12.202Z — pushed to: XxI0NICxX
 - 2026-04-20T22:04:10.522Z — pushed to: XxI0NICxX
-- 2026-04-20T22:02:57.048Z — pushed to: XxI0NICxX
 
 ---
 *Generated 2026-04-20 · 32 public / 98 total repos*
