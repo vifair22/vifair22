@@ -11,16 +11,9 @@ and optimisation/benchmarking work.
 
 ## Top languages
 
-| Language | Lines | Share |
-| -------- | ----- | ----- |
-| C | 84,705 | 44.0% |
-| TypeScript | 39,594 | 20.6% |
-| Python | 20,816 | 10.8% |
-| JavaScript | 8,490 | 4.4% |
-| C/C++ Header | 7,418 | 3.9% |
-| Rust | 6,122 | 3.2% |
-| Bourne Shell | 3,598 | 1.9% |
-| C++ | 2,940 | 1.5% |
+![C](https://img.shields.io/static/v1?label=C&message=44.0%25&color=A8B9CC&style=flat-square&logo=c&logoColor=white) ![TypeScript](https://img.shields.io/static/v1?label=TypeScript&message=20.6%25&color=3178C6&style=flat-square&logo=typescript&logoColor=white) ![Python](https://img.shields.io/static/v1?label=Python&message=10.8%25&color=3776AB&style=flat-square&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/static/v1?label=JavaScript&message=4.4%25&color=F7DF1E&style=flat-square&logo=javascript&logoColor=white) ![C/C++ Header](https://img.shields.io/static/v1?label=C%2FC%2B%2B+Header&message=3.9%25&color=A8B9CC&style=flat-square&logo=c&logoColor=white) ![Rust](https://img.shields.io/static/v1?label=Rust&message=3.2%25&color=DEA584&style=flat-square&logo=rust&logoColor=white) ![Bourne Shell](https://img.shields.io/static/v1?label=Bourne+Shell&message=1.9%25&color=4EAA25&style=flat-square&logo=gnubash&logoColor=white) ![C++](https://img.shields.io/static/v1?label=C%2B%2B&message=1.5%25&color=00599C&style=flat-square&logo=cplusplus&logoColor=white)
+
+<sub>Computed via cloc across my public + private repos. Top 8 shown; 173,683 LOC in this slice.</sub>
 
 ## Recently updated
 
@@ -61,6 +54,7 @@ and optimisation/benchmarking work.
 
 ## Recent activity
 
+- 2026-04-20T22:05:12.202Z — pushed to: XxI0NICxX
 - 2026-04-20T22:04:10.522Z — pushed to: XxI0NICxX
 - 2026-04-20T22:02:57.048Z — pushed to: XxI0NICxX
 - 2026-04-20T21:53:53.802Z — pushed to: XxI0NICxX
@@ -80,7 +74,6 @@ and optimisation/benchmarking work.
 - 2026-04-18T04:00:55.154Z — pushed to: Airies-UPS-C
 - 2026-04-18T03:42:10.110Z — deleted: c-utils
 - 2026-04-18T03:42:09.507Z — pushed to: c-utils
-- 2026-04-18T03:42:09.501Z — accepted: Add HTML and priority support to push notifications
 
 ---
 *Generated 2026-04-20 · 32 public / 98 total repos*
