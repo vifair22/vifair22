@@ -11,16 +11,16 @@ and optimisation/benchmarking work.
 
 ## Top languages
 
-| Language | Bytes | Share |
+| Language | Lines | Share |
 | -------- | ----- | ----- |
-| C | 6,514,015,021 | 74.9% |
-| C++ | 1,075,954,472 | 12.4% |
-| Zig | 397,856,632 | 4.6% |
-| Shell | 226,477,149 | 2.6% |
-| PowerShell | 76,060,971 | 0.9% |
-| Python | 62,080,321 | 0.7% |
-| Limbo | 54,342,172 | 0.6% |
-| TSX | 48,343,563 | 0.6% |
+| Text | 208,466 | 45.9% |
+| C | 84,705 | 18.6% |
+| TypeScript | 39,594 | 8.7% |
+| Python | 20,816 | 4.6% |
+| JSON | 13,866 | 3.1% |
+| Markdown | 13,469 | 3.0% |
+| SVG | 9,767 | 2.1% |
+| XML | 9,450 | 2.1% |
 
 ## Recently updated
 
@@ -61,6 +61,7 @@ and optimisation/benchmarking work.
 
 ## Recent activity
 
+- 2026-04-20T21:53:53.802Z — pushed to: XxI0NICxX
 - 2026-04-20T21:20:05.585Z — pushed new: XxI0NICxX
 - 2026-04-20T21:20:01.254Z — created: XxI0NICxX
 - 2026-04-20T17:32:32.607Z — pushed to: c-utils
@@ -80,7 +81,6 @@ and optimisation/benchmarking work.
 - 2026-04-18T03:42:09.501Z — accepted: Add HTML and priority support to push notifications
 - 2026-04-18T03:41:43.782Z — opened: Add HTML and priority support to push notifications
 - 2026-04-18T03:41:32.802Z — pushed new: c-utils
-- 2026-04-18T03:23:08.351Z — pushed to: c-utils
 
 ---
 *Generated 2026-04-20 · 32 public / 98 total repos*
