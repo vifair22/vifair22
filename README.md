@@ -6,8 +6,8 @@
 ## About
 
 Hello! I'm a professional systems-level software engineer with a wide range
-of experience — low-level enough for an instruction-accurate 6502 emulator,
-high-level enough for Tauri and Electron apps like my RPN calculator.
+of experience; all the way from a instruction-accurate 6502 emulator,
+all the way to Tauri and Electron apps like my RPN calculator.
 
 My favorite language is C. I reach for Rust when I need a hard trust
 boundary, and TypeScript and Python fill in for web and scripting work.
@@ -46,11 +46,11 @@ others to see.
 
 ## Recent activity
 
-- 2026-04-20T23:24:31.911Z — pushed to: XxI0NICxX
-- 2026-04-20T22:44:34.444Z — pushed to: XxI0NICxX
-- 2026-04-20T22:44:16.891Z — pushed to: XxI0NICxX
-- 2026-04-20T22:34:41.762Z — pushed to: XxI0NICxX
-- 2026-04-20T22:25:39.157Z — pushed to: XxI0NICxX
+- 2026-04-21T04:51:08.713Z — deleted: Airies-UPS-C
+- 2026-04-21T04:49:24.631Z — deleted: Airies-UPS-C
+- 2026-04-21T04:49:24.404Z — pushed to: Airies-UPS-C
+- 2026-04-21T04:49:23.079Z — accepted: Platform restructure: web UI, multi-driver UPS management
+- 2026-04-21T04:48:32.579Z — opened: Platform restructure: web UI, multi-driver UPS management
 
 ---
-*Generated 2026-04-21 · 32 public / 98 total repos*
+*Generated 2026-04-21 · 32 public / 99 total repos*
