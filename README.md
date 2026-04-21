@@ -30,27 +30,27 @@ others to see.
 
 ## Project highlights
 
-![C](https://img.shields.io/static/v1?label=&message=C&color=A8B9CC&style=flat-square&logo=c&logoColor=white) **[c-backup](https://git.airies.net/vifair22/c-backup)** — Deduplicating filesystem backup in C with SIMD intrinsics on hot paths. Content-addressed by SHA-256, metadata-exact (xattrs, ACLs, hardlinks, sparse files), streams arbitrarily large files. O(n) change detection across millions of inodes.
+**[c-backup](https://git.airies.net/vifair22/c-backup)** — Deduplicating filesystem backup in C with SIMD intrinsics on hot paths. Content-addressed by SHA-256, metadata-exact (xattrs, ACLs, hardlinks, sparse files), streams arbitrarily large files. O(n) change detection across millions of inodes (C).
 
-![C](https://img.shields.io/static/v1?label=&message=C&color=A8B9CC&style=flat-square&logo=c&logoColor=white) **[airies-ups-c](https://git.airies.net/vifair22/airies-ups-c)** — UPS monitoring daemon in C targeting APC SMT/SRT over both HID and MODBUS. Systemd-managed, with a browser-facing frontend for live status.
+**[airies-ups-c](https://git.airies.net/vifair22/airies-ups-c)** — UPS monitoring daemon in C targeting APC SMT/SRT over both HID and MODBUS. Systemd-managed, with a browser-facing frontend for live status (C + browser UI).
 
-![C](https://img.shields.io/static/v1?label=&message=C&color=A8B9CC&style=flat-square&logo=c&logoColor=white) **[chess-c](https://git.airies.net/vifair22/chess-c)** — Chess and checkers in C with SDL2. Full legal-move generation (castling, en passant, promotion), timed-search AI around 1700 ELO, deterministic replay capture for a test-driven workflow.
+**[chess-c](https://git.airies.net/vifair22/chess-c)** — Chess and checkers in C with SDL2. Full legal-move generation (castling, en passant, promotion), timed-search AI around 1700 ELO, deterministic replay capture for a test-driven workflow (C + SDL2).
 
-![C](https://img.shields.io/static/v1?label=&message=C&color=A8B9CC&style=flat-square&logo=c&logoColor=white) **[ben-eater-6502-emulator](https://git.airies.net/vifair22/ben-eater-6502-emulator)** — Instruction-accurate 6502/65C02 emulator for the Ben Eater breadboard platform. Cycle-counted CPU, VIA/ACIA/HD44780 peripherals, SDL UI with chip/pin visualization, TCP serial for monitor and BASIC. Built to iterate on ROM code without burning EEPROMs.
+**[ben-eater-6502-emulator](https://git.airies.net/vifair22/ben-eater-6502-emulator)** — Instruction-accurate 6502/65C02 emulator for the Ben Eater breadboard platform. Cycle-counted CPU, VIA/ACIA/HD44780 peripherals, SDL UI with chip/pin visualization, TCP serial for monitor and BASIC. Built to iterate on ROM code without burning EEPROMs (C + SDL2).
 
-![C](https://img.shields.io/static/v1?label=&message=C&color=A8B9CC&style=flat-square&logo=c&logoColor=white) **[dns-encrypted-proxy](https://git.airies.net/vifair22/dns-encrypted-proxy)** — Lightweight DNS-to-encrypted forward proxy in C. Listens UDP/TCP, forwards over DoH (HTTP/1.1, /2, /3), DoT, or DoQ. In-memory TTL cache with admission filtering, priority-ordered upstream dispatch with deadlines, lifecycle state machine for connection members. Fault-injection test suite, microbenchmarks, E2E benchmarks, Prometheus metrics with a Grafana dashboard.
+**[dns-encrypted-proxy](https://git.airies.net/vifair22/dns-encrypted-proxy)** — Lightweight DNS-to-encrypted forward proxy in C. Listens UDP/TCP, forwards over DoH (HTTP/1.1, /2, /3), DoT, or DoQ. In-memory TTL cache with admission filtering, priority-ordered upstream dispatch with deadlines, lifecycle state machine for connection members. Fault-injection test suite, microbenchmarks, E2E benchmarks, Prometheus metrics with a Grafana dashboard (C).
 
-![C](https://img.shields.io/static/v1?label=&message=C&color=A8B9CC&style=flat-square&logo=c&logoColor=white) **[1brc-c](https://git.airies.net/vifair22/1brc-c)** — 1 Billion Row Challenge in pure C17. AVX2/AVX-512 branchless parsing, lock-free multithreaded aggregation, hand-tuned hash and CMOV min/max. ~13 GB/s end-to-end on a Ryzen 9 5900X — memory-bound past that point.
+**[1brc-c](https://git.airies.net/vifair22/1brc-c)** — 1 Billion Row Challenge in pure C17. AVX2/AVX-512 branchless parsing, lock-free multithreaded aggregation, hand-tuned hash and CMOV min/max. ~13 GB/s end-to-end on a Ryzen 9 5900X — memory-bound past that point (C + AVX2/AVX-512).
 
-![Rust](https://img.shields.io/static/v1?label=&message=Rust&color=DEA584&style=flat-square&logo=rust&logoColor=white) **[rpn-calc](https://git.airies.net/vifair22/rpn-calc)** — RPN calculator built with Tauri, React, and Rust. Numeric stack with the usual binary/unary ops, fixed-decimal display, system/light/dark theming, plus startup update checks against GitLab releases. Same codebase runs on Windows/macOS/Linux, iOS, and Android.
+**[rpn-calc](https://git.airies.net/vifair22/rpn-calc)** — RPN calculator built with Tauri, React, and Rust. Numeric stack with the usual binary/unary ops, fixed-decimal display, system/light/dark theming, plus startup update checks against GitLab releases. Same codebase runs on Windows/macOS/Linux, iOS, and Android (Rust + React + Tauri).
 
 ## Recent activity
 
+- 2026-04-20T23:24:31.911Z — pushed to: XxI0NICxX
 - 2026-04-20T22:44:34.444Z — pushed to: XxI0NICxX
 - 2026-04-20T22:44:16.891Z — pushed to: XxI0NICxX
 - 2026-04-20T22:34:41.762Z — pushed to: XxI0NICxX
 - 2026-04-20T22:25:39.157Z — pushed to: XxI0NICxX
-- 2026-04-20T22:05:12.202Z — pushed to: XxI0NICxX
 
 ---
-*Generated 2026-04-20 · 32 public / 98 total repos*
+*Generated 2026-04-21 · 32 public / 98 total repos*
