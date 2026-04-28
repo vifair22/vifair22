@@ -1,5 +1,7 @@
 > This profile mirrors my GitLab at https://git.airies.net/vifair22.
-> These repos are read-only mirrors; head to GitLab for the source of truth.
+> These repos are read-only mirrors - large data blobs (>95 MB) are stripped
+> from the history here but preserved on GitLab. Head there for the source of
+> truth.
 
 ## About
 
@@ -7,8 +9,7 @@ Hello! I'm a professional systems-level software engineer with a wide range
 of experience; all the way from a instruction-accurate 6502 emulator,
 up to Tauri and Electron apps like my RPN calculator.
 
-My favorite language is C. I reach for Rust when I need a hard trust
-boundary, and TypeScript and Python fill in for web and scripting work.
+My favorite language is C. I reach for TypeScript and Python fill in for web and scripting work.
 
 This is where I put all my hobby projects that might just be good enough for
 others to see.
@@ -26,38 +27,29 @@ others to see.
 
 <sub>Computed via cloc across my public + private repos. Top 8 shown; 8,458,049,864 LOC in this slice.</sub>
 
-## Recently updated
+## Project highlights
 
-| Repo | Updated |
-| ---- | ------- |
-| [vifair22/git-sync](https://git.airies.net/vifair22/git-sync) | 2026-04-28T01:25:47.191Z |
-| [vifair22/airies-ups-c](https://git.airies.net/vifair22/airies-ups-c) | 2026-04-27T23:35:44.387Z |
-| [vifair22/c-utils](https://git.airies.net/vifair22/c-utils) | 2026-04-27T20:11:44.178Z |
-| [vifair22/dns-encrypted-proxy](https://git.airies.net/vifair22/dns-encrypted-proxy) | 2026-04-25T21:53:00.028Z |
-| [XxI0NICxX/XxI0NICxX](https://git.airies.net/XxI0NICxX/XxI0NICxX) | 2026-04-24T05:46:48.453Z |
+**[c-backup](https://git.airies.net/vifair22/c-backup)** — Deduplicating filesystem backup in C with SIMD intrinsics on hot paths. Content-addressed by SHA-256, metadata-exact (xattrs, ACLs, hardlinks, sparse files), streams arbitrarily large files. O(n) change detection across millions of inodes (C).
+
+**[airies-ups-c](https://git.airies.net/vifair22/airies-ups-c)** — UPS monitoring daemon in C targeting APC SMT/SRT over both HID and MODBUS. Systemd-managed, with a browser-facing frontend for live status (C + browser UI).
+
+**[chess-c](https://git.airies.net/vifair22/chess-c)** — Chess and checkers in C with SDL2. Full legal-move generation (castling, en passant, promotion), timed-search AI around 1700 ELO, deterministic replay capture for a test-driven workflow (C + SDL2).
+
+**[ben-eater-6502-emulator](https://git.airies.net/vifair22/ben-eater-6502-emulator)** — Instruction-accurate 6502/65C02 emulator for the Ben Eater breadboard platform. Cycle-counted CPU, VIA/ACIA/HD44780 peripherals, SDL UI with chip/pin visualization, TCP serial for monitor and BASIC. Built to iterate on ROM code without burning EEPROMs (C + SDL2).
+
+**[dns-encrypted-proxy](https://git.airies.net/vifair22/dns-encrypted-proxy)** — Lightweight DNS-to-encrypted forward proxy in C. Listens UDP/TCP, forwards over DoH (HTTP/1.1, /2, /3), DoT, or DoQ. In-memory TTL cache with admission filtering, priority-ordered upstream dispatch with deadlines, lifecycle state machine for connection members. Fault-injection test suite, microbenchmarks, E2E benchmarks, Prometheus metrics with a Grafana dashboard (C).
+
+**[1brc-c](https://git.airies.net/vifair22/1brc-c)** — 1 Billion Row Challenge in pure C17. AVX2/AVX-512 branchless parsing, lock-free multithreaded aggregation, hand-tuned hash and CMOV min/max. ~13 GB/s end-to-end on a Ryzen 9 5900X — memory-bound past that point (C + AVX2/AVX-512).
+
+**[rpn-calc](https://git.airies.net/vifair22/rpn-calc)** — RPN calculator built with Tauri, React, and Rust. Numeric stack with the usual binary/unary ops, fixed-decimal display, system/light/dark theming, plus startup update checks against GitLab releases. Same codebase runs on Windows/macOS/Linux, iOS, and Android (Rust + React + Tauri).
 
 ## Recent activity
 
-- 2026-04-28T01:25:47.191Z — pushed to: git-sync
+- 2026-04-28T01:30:35.640Z — pushed new: vifair22
+- 2026-04-28T01:30:34.727Z — created: vifair22
 - 2026-04-27T23:35:56.577Z — opened: ci: fix release:nightly stale tag — use RELEASE_TAG_TOKEN for DELETE
 - 2026-04-27T23:35:44.387Z — pushed new: Airies-UPS-C
 - 2026-04-27T23:20:04.472Z — deleted: Airies-UPS-C
-- 2026-04-27T23:20:01.682Z — pushed to: Airies-UPS-C
-- 2026-04-27T23:20:01.673Z — accepted: release: 1.0.0
-- 2026-04-27T23:15:26.108Z — opened: release: 1.0.0
-- 2026-04-27T23:15:08.524Z — pushed new: Airies-UPS-C
-- 2026-04-27T23:10:43.988Z — deleted: Airies-UPS-C
-- 2026-04-27T23:10:43.065Z — pushed to: Airies-UPS-C
-- 2026-04-27T23:10:43.025Z — accepted: ci: fix release:auto-tag — override alpine/git ENTRYPOINT
-- 2026-04-27T23:06:56.058Z — opened: ci: fix release:auto-tag — override alpine/git ENTRYPOINT
-- 2026-04-27T23:06:42.516Z — pushed new: Airies-UPS-C
-- 2026-04-27T22:59:47.857Z — pushed new: Airies-UPS-C
-- 2026-04-27T22:56:51.242Z — deleted: Airies-UPS-C
-- 2026-04-27T22:56:50.362Z — pushed to: Airies-UPS-C
-- 2026-04-27T22:56:50.237Z — accepted: deb: package the daemon, switch Pi deploys to apt install
-- 2026-04-27T22:53:06.502Z — pushed to: Airies-UPS-C
-- 2026-04-27T22:44:21.158Z — pushed to: Airies-UPS-C
-- 2026-04-27T22:32:54.837Z — opened: deb: package the daemon, switch Pi deploys to apt install
 
 ---
-*Generated by [git-sync](https://git.airies.net/vifair22/git-sync) 0.1.0_20260428.0130.release 2026-04-28 · 33 public / 99 total repos*
+*Generated by [git-sync](https://git.airies.net/vifair22/git-sync) 0.1.0_20260428.0504.release 2026-04-28 · 33 public / 100 total repos*
