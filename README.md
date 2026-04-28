@@ -1,7 +1,5 @@
 > This profile mirrors my GitLab at https://git.airies.net/vifair22.
-> These repos are read-only mirrors - large data blobs (>95 MB) are stripped
-> from the history here but preserved on GitLab. Head there for the source of
-> truth.
+> These repos are read-only mirrors; head to GitLab for the source of truth.
 
 ## About
 
@@ -17,40 +15,49 @@ others to see.
 
 ## Top languages
 
-![C](https://img.shields.io/static/v1?label=C&message=44.2%25&color=A8B9CC&style=flat-square&logo=c&logoColor=white)  
-![TypeScript](https://img.shields.io/static/v1?label=TypeScript&message=24.0%25&color=3178C6&style=flat-square&logo=typescript&logoColor=white)  
-![Python](https://img.shields.io/static/v1?label=Python&message=9.8%25&color=3776AB&style=flat-square&logo=python&logoColor=white)  
-![JavaScript](https://img.shields.io/static/v1?label=JavaScript&message=3.9%25&color=F7DF1E&style=flat-square&logo=javascript&logoColor=white)  
-![C/C++ Header](https://img.shields.io/static/v1?label=C%2FC%2B%2B+Header&message=3.4%25&color=A8B9CC&style=flat-square&logo=c&logoColor=white)  
-![Rust](https://img.shields.io/static/v1?label=Rust&message=2.8%25&color=DEA584&style=flat-square&logo=rust&logoColor=white)  
-![Bourne Shell](https://img.shields.io/static/v1?label=Bourne+Shell&message=1.7%25&color=4EAA25&style=flat-square&logo=gnubash&logoColor=white)  
-![C++](https://img.shields.io/static/v1?label=C%2B%2B&message=1.3%25&color=00599C&style=flat-square&logo=cplusplus&logoColor=white)
+![C](https://img.shields.io/static/v1?label=C&message=74.9%25&color=A8B9CC&style=flat-square&logo=c&logoColor=white)  
+![C++](https://img.shields.io/static/v1?label=C%2B%2B&message=12.4%25&color=00599C&style=flat-square&logo=cplusplus&logoColor=white)  
+![Zig](https://img.shields.io/static/v1?label=Zig&message=4.6%25&color=F7A41D&style=flat-square&logo=zig&logoColor=white)  
+![Shell](https://img.shields.io/static/v1?label=Shell&message=2.6%25&color=4EAA25&style=flat-square&logo=gnubash&logoColor=white)  
+![PowerShell](https://img.shields.io/static/v1?label=PowerShell&message=0.9%25&color=5391FE&style=flat-square&logo=powershell&logoColor=white)  
+![Python](https://img.shields.io/static/v1?label=Python&message=0.7%25&color=3776AB&style=flat-square&logo=python&logoColor=white)  
+![Limbo](https://img.shields.io/static/v1?label=Limbo&message=0.6%25&color=808080&style=flat-square)  
+![TSX](https://img.shields.io/static/v1?label=TSX&message=0.6%25&color=61DAFB&style=flat-square&logo=react&logoColor=white)
 
-<sub>Computed via cloc across my public + private repos. Top 8 shown; 199,391 LOC in this slice.</sub>
+<sub>Computed via cloc across my public + private repos. Top 8 shown; 8,458,049,864 LOC in this slice.</sub>
 
-## Project highlights
+## Recently updated
 
-**[c-backup](https://git.airies.net/vifair22/c-backup)** — Deduplicating filesystem backup in C with SIMD intrinsics on hot paths. Content-addressed by SHA-256, metadata-exact (xattrs, ACLs, hardlinks, sparse files), streams arbitrarily large files. O(n) change detection across millions of inodes (C).
-
-**[airies-ups-c](https://git.airies.net/vifair22/airies-ups-c)** — UPS monitoring daemon in C targeting APC SMT/SRT over both HID and MODBUS. Systemd-managed, with a browser-facing frontend for live status (C + browser UI).
-
-**[chess-c](https://git.airies.net/vifair22/chess-c)** — Chess and checkers in C with SDL2. Full legal-move generation (castling, en passant, promotion), timed-search AI around 1700 ELO, deterministic replay capture for a test-driven workflow (C + SDL2).
-
-**[ben-eater-6502-emulator](https://git.airies.net/vifair22/ben-eater-6502-emulator)** — Instruction-accurate 6502/65C02 emulator for the Ben Eater breadboard platform. Cycle-counted CPU, VIA/ACIA/HD44780 peripherals, SDL UI with chip/pin visualization, TCP serial for monitor and BASIC. Built to iterate on ROM code without burning EEPROMs (C + SDL2).
-
-**[dns-encrypted-proxy](https://git.airies.net/vifair22/dns-encrypted-proxy)** — Lightweight DNS-to-encrypted forward proxy in C. Listens UDP/TCP, forwards over DoH (HTTP/1.1, /2, /3), DoT, or DoQ. In-memory TTL cache with admission filtering, priority-ordered upstream dispatch with deadlines, lifecycle state machine for connection members. Fault-injection test suite, microbenchmarks, E2E benchmarks, Prometheus metrics with a Grafana dashboard (C).
-
-**[1brc-c](https://git.airies.net/vifair22/1brc-c)** — 1 Billion Row Challenge in pure C17. AVX2/AVX-512 branchless parsing, lock-free multithreaded aggregation, hand-tuned hash and CMOV min/max. ~13 GB/s end-to-end on a Ryzen 9 5900X — memory-bound past that point (C + AVX2/AVX-512).
-
-**[rpn-calc](https://git.airies.net/vifair22/rpn-calc)** — RPN calculator built with Tauri, React, and Rust. Numeric stack with the usual binary/unary ops, fixed-decimal display, system/light/dark theming, plus startup update checks against GitLab releases. Same codebase runs on Windows/macOS/Linux, iOS, and Android (Rust + React + Tauri).
+| Repo | Updated |
+| ---- | ------- |
+| [vifair22/git-sync](https://git.airies.net/vifair22/git-sync) | 2026-04-28T01:25:47.191Z |
+| [vifair22/airies-ups-c](https://git.airies.net/vifair22/airies-ups-c) | 2026-04-27T23:35:44.387Z |
+| [vifair22/c-utils](https://git.airies.net/vifair22/c-utils) | 2026-04-27T20:11:44.178Z |
+| [vifair22/dns-encrypted-proxy](https://git.airies.net/vifair22/dns-encrypted-proxy) | 2026-04-25T21:53:00.028Z |
+| [XxI0NICxX/XxI0NICxX](https://git.airies.net/XxI0NICxX/XxI0NICxX) | 2026-04-24T05:46:48.453Z |
 
 ## Recent activity
 
-- 2026-04-24T05:38:00.189Z — deleted: c-utils
-- 2026-04-24T05:37:59.542Z — pushed to: c-utils
-- 2026-04-24T05:37:59.510Z — accepted: Gate cJSON.h behind CUTILS_CJSON_ALLOW opt-in
-- 2026-04-24T05:37:55.126Z — deleted: c-utils
-- 2026-04-24T05:37:54.415Z — pushed to: c-utils
+- 2026-04-28T01:25:47.191Z — pushed to: git-sync
+- 2026-04-27T23:35:56.577Z — opened: ci: fix release:nightly stale tag — use RELEASE_TAG_TOKEN for DELETE
+- 2026-04-27T23:35:44.387Z — pushed new: Airies-UPS-C
+- 2026-04-27T23:20:04.472Z — deleted: Airies-UPS-C
+- 2026-04-27T23:20:01.682Z — pushed to: Airies-UPS-C
+- 2026-04-27T23:20:01.673Z — accepted: release: 1.0.0
+- 2026-04-27T23:15:26.108Z — opened: release: 1.0.0
+- 2026-04-27T23:15:08.524Z — pushed new: Airies-UPS-C
+- 2026-04-27T23:10:43.988Z — deleted: Airies-UPS-C
+- 2026-04-27T23:10:43.065Z — pushed to: Airies-UPS-C
+- 2026-04-27T23:10:43.025Z — accepted: ci: fix release:auto-tag — override alpine/git ENTRYPOINT
+- 2026-04-27T23:06:56.058Z — opened: ci: fix release:auto-tag — override alpine/git ENTRYPOINT
+- 2026-04-27T23:06:42.516Z — pushed new: Airies-UPS-C
+- 2026-04-27T22:59:47.857Z — pushed new: Airies-UPS-C
+- 2026-04-27T22:56:51.242Z — deleted: Airies-UPS-C
+- 2026-04-27T22:56:50.362Z — pushed to: Airies-UPS-C
+- 2026-04-27T22:56:50.237Z — accepted: deb: package the daemon, switch Pi deploys to apt install
+- 2026-04-27T22:53:06.502Z — pushed to: Airies-UPS-C
+- 2026-04-27T22:44:21.158Z — pushed to: Airies-UPS-C
+- 2026-04-27T22:32:54.837Z — opened: deb: package the daemon, switch Pi deploys to apt install
 
 ---
-*Generated by [git-sync](https://git.airies.net/vifair22/git-sync) 0.1.0_20260420.1834.release 2026-04-24 · 33 public / 99 total repos*
+*Generated by [git-sync](https://git.airies.net/vifair22/git-sync) 0.1.0_20260428.0130.release 2026-04-28 · 33 public / 99 total repos*
