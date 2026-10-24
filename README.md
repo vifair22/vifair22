@@ -5,43 +5,59 @@
 
 ## About
 
-Hello! I'm a professional systems-level software engineer with a wide range
-of experience; all the way from a instruction-accurate 6502 emulator,
-up to Tauri and Electron apps like my RPN calculator.
+Hello! I'm a systems-level software engineer who likes building small,
+focused tools that do one thing well, close to the metal.
 
-My favorite language is C. I reach for TypeScript and Python fill in for web and scripting work.
+The project I'm proudest of is falcon-boot: an auditable multi-boot loader
+for UEFI on x86-64 and AArch64, with a 32-bit x86 BIOS loader alongside, a
+distilled Ventoy.
+Drag an ISO onto the stick and it boots; it also boots a personal encrypted
+OS off a LUKS2 partition behind one passphrase, and keeps Secure Boot intact
+by routing every launch through shim. falcon-asm, a language server for GNU
+assembler x86 source, grew out of writing its real-mode and long-mode code.
 
-This is where I put all my hobby projects that might just be good enough for
-others to see.
+C is my favorite language and where I'm most at home. Lately I've been
+writing a lot of Go for daemons and CLIs. I reach for TypeScript and Python
+when web and scripting work calls for it.
+
+This is where I put my hobby projects, in case any are good enough to be
+worth someone else's time.
 
 ## Top languages
 
-![C](https://img.shields.io/static/v1?label=C&message=56.6%25&color=A8B9CC&style=flat-square&logo=c&logoColor=white)  
-![C/C++ Header](https://img.shields.io/static/v1?label=C%2FC%2B%2B+Header&message=10.5%25&color=A8B9CC&style=flat-square&logo=c&logoColor=white)  
-![Go](https://img.shields.io/static/v1?label=Go&message=8.8%25&color=00ADD8&style=flat-square&logo=go&logoColor=white)  
-![Python](https://img.shields.io/static/v1?label=Python&message=5.5%25&color=3776AB&style=flat-square&logo=python&logoColor=white)  
-![TypeScript](https://img.shields.io/static/v1?label=TypeScript&message=4.3%25&color=3178C6&style=flat-square&logo=typescript&logoColor=white)  
-![Bourne Shell](https://img.shields.io/static/v1?label=Bourne+Shell&message=2.6%25&color=4EAA25&style=flat-square&logo=gnubash&logoColor=white)  
-![C++](https://img.shields.io/static/v1?label=C%2B%2B&message=2.4%25&color=00599C&style=flat-square&logo=cplusplus&logoColor=white)  
-![Assembly](https://img.shields.io/static/v1?label=Assembly&message=2.2%25&color=6E4C13&style=flat-square)
+[![C](https://img.shields.io/static/v1?label=C&message=51.1%25&color=A8B9CC&style=flat-square&logo=c&logoColor=white)](languages/c.md)  
+[![Go](https://img.shields.io/static/v1?label=Go&message=16.9%25&color=00ADD8&style=flat-square&logo=go&logoColor=white)](languages/go.md)  
+[![TypeScript](https://img.shields.io/static/v1?label=TypeScript&message=8.3%25&color=3178C6&style=flat-square&logo=typescript&logoColor=white)](languages/typescript.md)  
+[![Python](https://img.shields.io/static/v1?label=Python&message=8.2%25&color=3776AB&style=flat-square&logo=python&logoColor=white)](languages/python.md)  
+[![Shell](https://img.shields.io/static/v1?label=Shell&message=5.3%25&color=4EAA25&style=flat-square&logo=gnubash&logoColor=white)](languages/shell.md)  
+[![Assembly](https://img.shields.io/static/v1?label=Assembly&message=3.5%25&color=6E4C13&style=flat-square)](languages/assembly.md)  
+[![JavaScript](https://img.shields.io/static/v1?label=JavaScript&message=1.1%25&color=F7DF1E&style=flat-square&logo=javascript&logoColor=white)](languages/javascript.md)  
+[![Rust](https://img.shields.io/static/v1?label=Rust&message=0.8%25&color=DEA584&style=flat-square&logo=rust&logoColor=white)](languages/rust.md)
 
-<sub>Computed via cloc across my public + private repos. Top 8 shown; 1,501,442 LOC in this slice.</sub>
+<sub>Computed via cloc across my public + private repos. Top 8 shown; 800,799 LOC in this slice.</sub>
 
 ## Project highlights
 
-**[c-backup](https://git.airies.net/vifair22/c-backup)** — Deduplicating filesystem backup in C with SIMD intrinsics on hot paths. Content-addressed by SHA-256, metadata-exact (xattrs, ACLs, hardlinks, sparse files), streams arbitrarily large files. O(n) change detection across millions of inodes (C).
+**[falcon-boot](https://git.airies.net/vifair22/falcon-boot)** - An auditable multi-boot loader for UEFI on x86-64 and AArch64, with a 32-bit x86 BIOS loader alongside: a distilled Ventoy. Drag-and-drop ISO booting, a personal encrypted OS booted off a LUKS2 partition behind one passphrase, and Secure Boot kept intact by routing every launch through shim (C + x86 assembly).
 
-**[airies-ups-c](https://git.airies.net/vifair22/airies-ups-c)** — UPS monitoring daemon in C targeting APC SMT/SRT over both HID and MODBUS. Systemd-managed, with a browser-facing frontend for live status (C + browser UI).
+**[falcon-asm](https://git.airies.net/vifair22/falcon-asm)** - A language server for GNU assembler (GAS) x86 AT&T-syntax source: hover docs for mnemonics, registers and directives with ISA level and flags, semantic highlighting, and macro and include resolution. Project-agnostic, though it grew out of writing falcon-boot's assembly (Go).
 
-**[chess-c](https://git.airies.net/vifair22/chess-c)** — Chess and checkers in C with SDL2. Full legal-move generation (castling, en passant, promotion), timed-search AI around 1700 ELO, deterministic replay capture for a test-driven workflow (C + SDL2).
+**[1brc-c](https://git.airies.net/vifair22/1brc-c)** - 1 Billion Row Challenge in pure C17. AVX2/AVX-512 branchless parsing, lock-free multithreaded aggregation, hand-tuned hash and CMOV min/max. ~13 GB/s end-to-end on a Ryzen 9 5900X, memory-bound past that point (C + AVX2/AVX-512).
 
-**[ben-eater-6502-emulator](https://git.airies.net/vifair22/ben-eater-6502-emulator)** — Instruction-accurate 6502/65C02 emulator for the Ben Eater breadboard platform. Cycle-counted CPU, VIA/ACIA/HD44780 peripherals, SDL UI with chip/pin visualization, TCP serial for monitor and BASIC. Built to iterate on ROM code without burning EEPROMs (C + SDL2).
+**[c-backup](https://git.airies.net/vifair22/c-backup)** - Deduplicating filesystem backup in C with SIMD intrinsics on hot paths. Content-addressed by SHA-256, metadata-exact (xattrs, ACLs, hardlinks, sparse files), streams arbitrarily large files. O(n) change detection across millions of inodes (C).
 
-**[dns-encrypted-proxy](https://git.airies.net/vifair22/dns-encrypted-proxy)** — Lightweight DNS-to-encrypted forward proxy in C. Listens UDP/TCP, forwards over DoH (HTTP/1.1, /2, /3), DoT, or DoQ. In-memory TTL cache with admission filtering, priority-ordered upstream dispatch with deadlines, lifecycle state machine for connection members. Fault-injection test suite, microbenchmarks, E2E benchmarks, Prometheus metrics with a Grafana dashboard (C).
+**[dns-encrypted-proxy](https://git.airies.net/vifair22/dns-encrypted-proxy)** - Lightweight DNS-to-encrypted forward proxy in C. Listens UDP/TCP, forwards over DoH (HTTP/1.1, /2, /3), DoT, or DoQ. In-memory TTL cache with admission filtering, priority-ordered upstream dispatch with deadlines, lifecycle state machine for connection members. Fault-injection test suite, microbenchmarks, E2E benchmarks, Prometheus metrics with a Grafana dashboard (C).
 
-**[1brc-c](https://git.airies.net/vifair22/1brc-c)** — 1 Billion Row Challenge in pure C17. AVX2/AVX-512 branchless parsing, lock-free multithreaded aggregation, hand-tuned hash and CMOV min/max. ~13 GB/s end-to-end on a Ryzen 9 5900X — memory-bound past that point (C + AVX2/AVX-512).
+**[airies-ups-c](https://git.airies.net/vifair22/airies-ups-c)** - UPS monitoring daemon in C targeting APC SMT/SRT over both HID and MODBUS. Systemd-managed, with a browser-facing frontend for live status (C + browser UI).
 
-**[rpn-calc](https://git.airies.net/vifair22/rpn-calc)** — RPN calculator built with Tauri, React, and Rust. Numeric stack with the usual binary/unary ops, fixed-decimal display, system/light/dark theming, plus startup update checks against GitLab releases. Same codebase runs on Windows/macOS/Linux, iOS, and Android (Rust + React + Tauri).
+**[tp-fingerprint](https://git.airies.net/vifair22/tp-fingerprint)** - Fingerprint authentication for the ThinkPad T480's Synaptics reader and the C14 Chromebook's fingerprint MCU: a Go daemon, a small C PAM module, and a CLI, replacing the python-validity / fprintd stack with one program of its own (Go + C PAM).
+
+## Recent activity
+
+- 2026-10-24T01:39:23.993Z — pushed to: falcon-boot
+- 2026-10-24T01:36:33.660Z — pushed to: chrome-ec
+- 2026-10-24T01:36:32.867Z — pushed to: edk2
+- 2026-10-24T01:36:32.245Z — pushed to: tp-fingerprint
 
 ---
-*Generated by [git-sync](https://git.airies.net/vifair22/git-sync) 0.1.0_20261023.0504.release 2026-10-23 · 34 public / 142 total repos*
+*Generated by [git-sync](https://git.airies.net/vifair22/git-sync) 0.1.0_20261024.0254.release 2026-10-24 · 44 public / 143 total repos*
