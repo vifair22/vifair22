@@ -12,7 +12,7 @@ Public repos using C, by share of the repo.
 | **[C-Pushover](https://git.airies.net/vifair22/c-pushover)** | 95.7% | Portable C Pushover push-notification client library and CLI. |
 | **[1 Billion Row Challenge - C](https://git.airies.net/vifair22/1brc-c)** | 93.1% | The One Billion Row Challenge in pure C17 for x86-64 Linux, with AVX2/AVX-512 parsing. |
 | **[Chess-C](https://git.airies.net/vifair22/chess-c)** | 89.7% |  |
-| **[falcon-boot](https://git.airies.net/vifair22/falcon-boot)** | 86.6% | An auditable multi-boot loader for UEFI on x86-64 and AArch64, with a 32-bit x86 BIOS loader: a distilled Ventoy. |
+| **[falcon-boot](https://git.airies.net/vifair22/falcon-boot)** | 86.7% | An auditable multi-boot loader for UEFI on x86-64 and AArch64, with a 32-bit x86 BIOS loader: a distilled Ventoy. |
 | **[1brc-os](https://git.airies.net/vifair22/1brc-os)** | 84.9% | A single-purpose unikernel for the One Billion Row Challenge: boots from UEFI, parses a billion rows, prints the result, and halts. |
 | **[C Backup](https://git.airies.net/vifair22/c-backup)** | 79.8% | A content-addressed, deduplicating backup daemon in C; one c-backupd per machine. |
 | **[C-Log](https://git.airies.net/vifair22/c-log)** | 76.1% | Small, header-only logging library for C and C++ with colored output and timestamps. |
