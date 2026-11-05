@@ -7,7 +7,6 @@ Public repos using Python, by share of the repo.
 | **[Linux Backup Script](https://git.airies.net/vifair22/linux-backup-script)** | 100.0% | Root-aware system backup utility for Linux. |
 | **[SMTP Test](https://git.airies.net/vifair22/smtp-test)** | 100.0% | Simple app to troubleshoot SMTP issues |
 | **[python-utils](https://git.airies.net/vifair22/python-utils)** | 99.0% | Shared Python utility library: config, logging, database, and push notifications. |
-| **[claude-mcp](https://git.airies.net/vifair22/claude-mcp)** | 90.5% | Coordinate multiple Claude Code sessions, one per domain, so they work together. |
 | **[Codex Updater](https://git.airies.net/vifair22/codex-updater)** | 63.7% | Self-updating wrapper for the Codex CLI: fetches and blake3-verifies the latest release. |
 | **[1brc-os](https://git.airies.net/vifair22/1brc-os)** | 9.6% | A single-purpose unikernel for the One Billion Row Challenge: boots from UEFI, parses a billion rows, prints the result, and halts. |
 | **[Chess-C](https://git.airies.net/vifair22/chess-c)** | 8.7% |  |
