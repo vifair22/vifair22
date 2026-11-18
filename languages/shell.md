@@ -15,7 +15,7 @@ Public repos using Shell, by share of the repo.
 | **[thinkbatt](https://git.airies.net/vifair22/thinkbatt)** | 0.5% | Battery charge-policy and fuel-gauge calibration daemon for ThinkPads. |
 | **[breakout-c](https://git.airies.net/vifair22/breakout-c)** | 0.5% |  |
 | **[DNS Encrypted Proxy](https://git.airies.net/vifair22/dns-encrypted-proxy)** | 0.5% | A small, high-performance DNS forward proxy in C: DoH, DoT, and DoQ with caching and Prometheus metrics. |
-| **[c-utils](https://git.airies.net/vifair22/c-utils)** | 0.3% | Shared C application framework: DB, logging, config, push notifications, lifecycle management |
+| **[c-utils](https://git.airies.net/vifair22/c-utils)** | 0.2% | Shared C application framework: DB, logging, config, push notifications, lifecycle management |
 | **[Chess-C](https://git.airies.net/vifair22/chess-c)** | 0.1% |  |
 
 [<- back to profile](../README.md)
