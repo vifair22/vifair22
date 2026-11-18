@@ -4,7 +4,7 @@ Public repos using C, by share of the repo.
 
 | Repo | Share | What it is |
 | ---- | ----- | ---------- |
-| **[c-utils](https://git.airies.net/vifair22/c-utils)** | 98.5% | Shared C application framework: DB, logging, config, push notifications, lifecycle management |
+| **[c-utils](https://git.airies.net/vifair22/c-utils)** | 98.6% | Shared C application framework: DB, logging, config, push notifications, lifecycle management |
 | **[devlink](https://git.airies.net/vifair22/devlink)** | 98.2% | A compressed file and command link between a Linux workstation and an old Windows machine (2000/9x/NT), over serial or TCP. |
 | **[DNS Encrypted Proxy](https://git.airies.net/vifair22/dns-encrypted-proxy)** | 96.9% | A small, high-performance DNS forward proxy in C: DoH, DoT, and DoQ with caching and Prometheus metrics. |
 | **[breakout-c](https://git.airies.net/vifair22/breakout-c)** | 96.5% |  |
