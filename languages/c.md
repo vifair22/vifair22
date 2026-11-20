@@ -6,7 +6,7 @@ Public repos using C, by share of the repo.
 | ---- | ----- | ---------- |
 | **[c-utils](https://git.airies.net/vifair22/c-utils)** | 98.6% | Shared C application framework: DB, logging, config, push notifications, lifecycle management |
 | **[devlink](https://git.airies.net/vifair22/devlink)** | 98.2% | A compressed file and command link between a Linux workstation and an old Windows machine (2000/9x/NT), over serial or TCP. |
-| **[DNS Encrypted Proxy](https://git.airies.net/vifair22/dns-encrypted-proxy)** | 96.9% | A small, high-performance DNS forward proxy in C: DoH, DoT, and DoQ with caching and Prometheus metrics. |
+| **[DNS Encrypted Proxy](https://git.airies.net/vifair22/dns-encrypted-proxy)** | 97.4% | A small, high-performance DNS forward proxy in C: DoH, DoT, and DoQ with caching and Prometheus metrics. |
 | **[breakout-c](https://git.airies.net/vifair22/breakout-c)** | 96.5% |  |
 | **[Ben Eater 6502 Emulator](https://git.airies.net/vifair22/ben-eater-6502-emulator)** | 96.5% | An emulator for the Ben Eater breadboard 6502 computer: cycle-counted CPU, SDL hardware-style UI, and peripherals. |
 | **[C-Pushover](https://git.airies.net/vifair22/c-pushover)** | 95.7% | Portable C Pushover push-notification client library and CLI. |
