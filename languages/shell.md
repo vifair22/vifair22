@@ -6,7 +6,7 @@ Public repos using Shell, by share of the repo.
 | ---- | ----- | ---------- |
 | **[devlink-rescue](https://git.airies.net/vifair22/devlink-rescue)** | 72.4% | A small Linux rescue image carrying a devlink agent, for repairing stuck 32-bit-era PCs over serial or LAN. |
 | **[Codex Updater](https://git.airies.net/vifair22/codex-updater)** | 36.3% | Self-updating wrapper for the Codex CLI: fetches and blake3-verifies the latest release. |
-| **[falcon-boot](https://git.airies.net/vifair22/falcon-boot)** | 9.2% | An auditable multi-boot loader for UEFI on x86-64 and AArch64, with a 32-bit x86 BIOS loader: a distilled Ventoy. |
+| **[falcon-boot](https://git.airies.net/vifair22/falcon-boot)** | 9.6% | An auditable multi-boot loader for UEFI on x86-64 and AArch64, with a 32-bit x86 BIOS loader: a distilled Ventoy. |
 | **[1 Billion Row Challenge - C](https://git.airies.net/vifair22/1brc-c)** | 6.9% | The One Billion Row Challenge in pure C17 for x86-64 Linux, with AVX2/AVX-512 parsing. |
 | **[1 Billion Row Challenge - C++](https://git.airies.net/vifair22/1brc-cpp)** | 5.9% | Fastest thing I've ever written |
 | **[C Backup](https://git.airies.net/vifair22/c-backup)** | 1.9% | A content-addressed, deduplicating backup daemon in C; one c-backupd per machine. |
